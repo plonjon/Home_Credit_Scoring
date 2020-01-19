@@ -5,8 +5,9 @@ Le jeu de données utilisé pour la modélisation est celui de la compétition K
 
 Le repository comprend :
 - Le code python de la modélisation (du prétraitement jusqu'aux prédictions)
-- Un Dashboard (DASH) présentant diverses informations (dont la probabilité de défaut) pour un client donné
-- le code de déploiement du modéle (FLASK) sous forme d'API 
+- Un Dashboard (DASH) présentant diverses informations (dont la probabilité de défaut) pour un client donné [lien dashboard](https://home-credit-dashboard.herokuapp.com/)
+
+- le code de déploiement du modéle (FLASK) sous forme d'API [lien API](https://home-credit-api.herokuapp.com/)
 
 ## Authors
 

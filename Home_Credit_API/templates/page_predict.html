@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Default probability</title>
+	<link rel="stylesheet" type="text/css" href="static/main.css">
+</head>
+
+<body>
+
+	<div class="login">
+	<H1>Home Credit</H1>
+	<H1>Default prediction</H1>
+
+	<form action="{{ url_for('predict') }}" method="post">
+			<select name="liste_client">
+				<option disabled selected value> -- select a client -- </option>
+				{% for client in clients %}
+					<option value="{{client}}">{{client}}</option>
+				{% endfor %}
+			</select>
+		<button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+		
+	</form>
+	<br>
+	<h3>{{ id_client }}</h3>
+	<h3>{{ prediction }}</h3>
+	
+
+	</div>
+</html>

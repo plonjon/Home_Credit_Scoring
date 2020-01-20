@@ -313,7 +313,7 @@ def update_output(client_num):
 			gauge={
 				'axis': {'range':[0, 100]},
 				'threshold':{
-					'value': 90.75,
+					'value': 91.7936,
 					'thickness': 0.9,
 					'line': {'color': 'red', 'width': 3}
 					},

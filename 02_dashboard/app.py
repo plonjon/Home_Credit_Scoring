@@ -325,7 +325,7 @@ def update_output(client_num):
 		'autosize': False,
 		'height': 250,
 		'width': 300,
-		'title': 'Probabilité de défaut<br>de crédit<br>',
+		'title': 'Probabilité de défaut<br>de paiement<br>',
 	}
 	return {
 		'data': gauge_score,

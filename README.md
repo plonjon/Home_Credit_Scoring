@@ -1,6 +1,6 @@
 # Home Credit Default Risk
 
-Ce projet consiste à développer un modèle de scoring de la probabilité de défaut de crédit d'un client.
+Ce projet consiste à développer un modèle de scoring de la probabilité de défaut de paiement d'un client.
 Le jeu de données utilisé pour la modélisation est celui de la compétition Kaggle [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk/data)
 
 Le repository comprend :

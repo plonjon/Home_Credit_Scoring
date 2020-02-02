@@ -368,6 +368,7 @@ def update_shape_tree(client_num):
 			'type': 'bar',
 			'orientation': 'h',
 			'text': np.round(x.values,3),
+			'hoverinfo': 'text+y',
 			'textposition': 'auto',
 			'marker': {'color': colors},
 			'width': 0.8,
